@@ -1,14 +1,10 @@
 {
-  "AWSEBDockerrunVersion": "1",
-  "Image": {
-    "Name": "079956113942.dkr.ecr.us-west-2.amazonaws.com/test",
-    "Update": "true"
-  },
-  "Ports": [
-    {
-      "ContainerPort": “80”
-    }
-  ],
-  
-  "Logging": "/var/log/httpd”
+	"AWSEBDockerrunVersion": "1",
+	"Image": {
+		"Name": "079956113942.dkr.ecr.us-west-2.amazonaws.com/ecr_west2:latest",
+		"Update": "true"
+	},
+	"Ports": [{
+		"ContainerPort": "80"
+	}]
 }
