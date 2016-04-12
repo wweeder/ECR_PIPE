@@ -1,7 +1,7 @@
 {
 	"AWSEBDockerrunVersion": "1",
 	"Image": {
-		"Name": "079956113942.dkr.ecr.us-west-2.amazonaws.com/ecr_west2:latest",
+		"Name": "079956113942.dkr.ecr.us-east-1.amazonaws.com/crm_dev:latest",
 		"Update": "true"
 	},
 	"Ports": [{
